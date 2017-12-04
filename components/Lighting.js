@@ -18,23 +18,6 @@ class Lighting extends Component {
   render() {
     return (
       <ScrollView style={styles.container}>
-        <View style={styles.space}>
-          <Image source={silk} style={styles.image} />
-          <View>
-            <Text style={styles.bold}>Silk:</Text>
-            <Text style={styles.text}>
-              A silk is similar to a flag, but the black fabric is replaced with
-              silk to diffuse rather than block light. Most of the time it is
-              used to create a larger light source that throws softer edged
-              shadows.
-            </Text>
-            <Text style={styles.text}>
-              But it can work as a flag, but one that makes a brighter shadow.
-              It will cut more light than a net, and will also bounce more light
-              into the scene.
-            </Text>
-          </View>
-        </View>
 
         <View style={styles.space}>
           <Image source={flag} style={styles.image} />
@@ -50,6 +33,24 @@ class Lighting extends Component {
               overhead rigs or butterflies in that they can be mounted on
               individual C-stands, as opposed to being affixed to collapsible
               frames.
+            </Text>
+          </View>
+        </View>
+
+        <View style={styles.space}>
+          <Image source={silk} style={styles.image} />
+          <View>
+            <Text style={styles.bold}>Silk:</Text>
+            <Text style={styles.text}>
+              A silk is similar to a flag, but the black fabric is replaced with
+              silk to diffuse rather than block light. Most of the time it is
+              used to create a larger light source that throws softer edged
+              shadows.
+            </Text>
+            <Text style={styles.text}>
+              But it can work as a flag, but one that makes a brighter shadow.
+              It will cut more light than a net, and will also bounce more light
+              into the scene.
             </Text>
           </View>
         </View>
