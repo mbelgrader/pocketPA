@@ -19,10 +19,10 @@ class Home extends Component {
           <Button title="Walkie" onPress={() => navigate('Walkie') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Set Etiquette" onPress={() => navigate('SetEtiquette') } />
+          <Button title="Lingo" onPress={() => navigate('Lingo') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Lingo" onPress={() => navigate('Lingo') } />
+          <Button title="Set Etiquette" onPress={() => navigate('SetEtiquette') } />
         </View>
         <View style={ styles.space }>
           <Button title="Basic Set Items" onPress={() => navigate('BasicSetItems') } />

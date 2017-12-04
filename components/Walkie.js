@@ -30,10 +30,11 @@ class Walkie extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 10,
+    paddingTop: 10,
+    backgroundColor: 'white',
   },
   space: {
-    backgroundColor: 'white',
+    // backgroundColor: 'white',
     padding: 15,
     marginTop: 10,
     marginBottom: 10,

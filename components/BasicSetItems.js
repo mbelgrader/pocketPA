@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Text, View, StyleSheet, ScrollView } from "react-native";
+import { Text, View, StyleSheet, Image, ScrollView } from "react-native";
 
 const appleboxes = require("../assets/images/set/appleboxes.jpg");
+const c47 = require("../assets/images/set/c47.jpg");
 
 class BasicSetItems extends Component {
   constructor(props) {
@@ -22,6 +23,17 @@ class BasicSetItems extends Component {
             </Text>
           </View>
         </View>
+
+        <View style={styles.space}>
+          <Image source={c47} style={styles.image} />
+          <View>
+            <Text style={styles.bold}>C-47:</Text>
+            <Text style={styles.text}>
+              Often used by the lighting department to attach gels to lights,
+              keep cords out of the way, etc.
+            </Text>
+          </View>
+        </View>
       </ScrollView>
     );
   }
@@ -33,7 +45,7 @@ const styles = StyleSheet.create({
     backgroundColor: "white"
   },
   space: {
-    backgroundColor: "white",
+    // backgroundColor: "white",
     // flexDirection: 'row',
     alignItems: "center",
     justifyContent: "center",
