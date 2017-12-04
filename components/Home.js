@@ -7,6 +7,10 @@ class Home extends Component {
     super(props);
   }
 
+  static navigationOptions = {
+    title: 'Home',
+  };
+
   redirect(name) {
     this.props.navigator.push({ name: name });
   }
@@ -16,12 +20,24 @@ class Home extends Component {
 
     return (
       <View style={styles.container}>
-        <Button title="Walkie" onPress={() => navigate('Walkie') } />
-        <Button title="Set Etiquette" onPress={() => navigate('SetEtiquette') } />
-        <Button title="Lingo" onPress={() => navigate('Lingo') } />
-        <Button title="Basic Set Items" onPress={() => navigate('BasicSetItems') } />
-        <Button title="Camera" onPress={() => navigate('Camera') } />
-        <Button title="Lighting" onPress={() => navigate('Lighting') } />
+        <View style={ styles.space }>
+          <Button title="Walkie" onPress={() => navigate('Walkie') } />
+        </View>
+        <View style={ styles.space }>
+          <Button title="Set Etiquette" onPress={() => navigate('SetEtiquette') } />
+        </View>
+        <View style={ styles.space }>
+          <Button title="Lingo" onPress={() => navigate('Lingo') } />
+        </View>
+        <View style={ styles.space }>
+          <Button title="Basic Set Items" onPress={() => navigate('BasicSetItems') } />
+        </View>
+        <View style={ styles.space }>
+          <Button title="Camera" onPress={() => navigate('Camera') } />
+        </View>
+        <View style={ styles.space }>
+          <Button title="Lighting" onPress={() => navigate('Lighting') } />
+        </View>
       </View>
     );
   }
@@ -29,12 +45,23 @@ class Home extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    backgroundColor: 'white'
   },
-  // list: {
-  //   justifyContent: 'center',
-  //   alignItems: 'center',
-  // }
+  space: {
+    padding: 15,
+    marginTop: 20,
+    marginLeft: 10,
+    marginRight: 10,
+    // borderTopWidth: .5,
+    // borderBottomWidth: .5,
+    shadowOpacity: 0.75,
+    shadowRadius: 2,
+    shadowColor: '#181818',
+    // shadowColor: '#0084ff',
+    shadowOffset: { height: 2, width: 0 },
+    // backgroundColor: ''
+  }
 });
 
 export default Home;
