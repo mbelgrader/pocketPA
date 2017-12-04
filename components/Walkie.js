@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, Navigator, TouchableOpacity,
-          ScrollView } from 'react-native';
+import { Text, View, StyleSheet, ScrollView } from 'react-native';
 
 class Walkie extends Component {
   constructor(props) {
@@ -27,11 +26,6 @@ class Walkie extends Component {
     );
   }
 }
-
-// <View style={ styles.space }>
-//   <Text style={ styles.bold }></Text>
-//   <Text style={ styles.text }></Text>
-// </View>
 
 const styles = StyleSheet.create({
   container: {
@@ -65,10 +59,10 @@ export default Walkie;
 
 const WALKIE_TERMS = {
   "(name) to (name)": "Term used when requesting someones attention",
-  "Go for (name)": "Term used when acknowledging a request: \"Go for Bill\”",
+  "Go for (name)": "Term used when acknowledging a request: \"Go for John\”",
   "Copy/Copy That": "Term used to indicate that you understand the instructions, or tasks you’ve been given. Make sure to respond EVERY TIME, that way people know you actually heard them.",
-  "10-1": "Term used when someone is in the restroom: 'Going 10-1' or, 'Where is Mary?', '10-1'.",
-  "What’s your 20?": "Term used when attempting to locate someone: 'Bill, what’s your 20?'",
+  "10-1": "Term used when someone is in the restroom: 'Going 10-1' or, 'Where is Kati?', '10-1'.",
+  "What’s your 20?": "Term used when attempting to locate someone: 'John, what’s your 20?'",
   "Flying In": "Term used when bringing someone, or something, to the set. The someone/something 'flies in'.",
   "Does anyone have eyes on (name)": "Term used when trying to find someone who doesn’t have a walkie."
 }
