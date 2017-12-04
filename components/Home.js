@@ -11,10 +11,6 @@ class Home extends Component {
     title: 'Home',
   };
 
-  redirect(name) {
-    this.props.navigator.push({ name: name });
-  }
-
   render() {
     const { navigate } = this.props.navigation;
 
