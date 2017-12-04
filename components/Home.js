@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, TouchableOpacity,
-          ScrollView, Button } from 'react-native';
+import { Text, View, StyleSheet, ScrollView, Button } from 'react-native';
 
 class Home extends Component {
   constructor(props) {
@@ -15,7 +14,7 @@ class Home extends Component {
     const { navigate } = this.props.navigation;
 
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
         <View style={ styles.space }>
           <Button title="Walkie" onPress={() => navigate('Walkie') } />
         </View>
@@ -34,7 +33,7 @@ class Home extends Component {
         <View style={ styles.space }>
           <Button title="Lighting" onPress={() => navigate('Lighting') } />
         </View>
-      </View>
+      </ScrollView>
     );
   }
 }

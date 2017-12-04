@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, Navigator, TouchableOpacity,
-          ScrollView } from 'react-native';
+import { Text, View, StyleSheet, ScrollView } from 'react-native';
 
 class Lighting extends Component {
   constructor(props) {
@@ -13,8 +12,8 @@ class Lighting extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-      </View>
+      <ScrollView style={styles.container}>
+      </ScrollView>
     );
   }
 }
