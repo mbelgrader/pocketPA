@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Text, View, StyleSheet, ScrollView } from 'react-native';
+import React, { Component } from "react";
+import { Text, View, StyleSheet, ScrollView } from "react-native";
 
 class CameraDept extends Component {
   constructor(props) {
@@ -7,20 +7,20 @@ class CameraDept extends Component {
   }
 
   static navigationOptions = {
-    title: 'CameraDept',
+    title: "Camera"
   };
 
   render() {
     return (
-      <ScrollView style={ styles.container }>
-        { Object.keys(JOBS).map((term, idx) => {
-            return (
-              <View style={ styles.space } key={ idx }>
-                <Text style={ styles.bold }>{ term }</Text>
-                <Text style={ styles.text }>{ JOBS[term] }</Text>
-              </View>
-            );
-          })}
+      <ScrollView style={styles.container}>
+        {Object.keys(JOBS).map((term, idx) => {
+          return (
+            <View style={styles.space} key={idx}>
+              <Text style={styles.bold}>{term}</Text>
+              <Text style={styles.text}>{JOBS[term]}</Text>
+            </View>
+          );
+        })}
       </ScrollView>
     );
   }
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 10,
-    backgroundColor: 'white',
+    backgroundColor: "white"
   },
   space: {
     // backgroundColor: 'white',
@@ -43,32 +43,50 @@ const styles = StyleSheet.create({
     // borderBottomWidth: .5,
     shadowOpacity: 0.75,
     shadowRadius: 2,
-    shadowColor: '#181818',
+    shadowColor: "#181818",
     // shadowColor: '#0084ff',
-    shadowOffset: { height: 2, width: 0 },
+    shadowOffset: { height: 2, width: 0 }
     // backgroundColor: ''
   },
   bold: {
-    fontWeight: 'bold',
+    fontWeight: "bold",
     marginBottom: 5
   }
 });
 
 export default CameraDept;
 
-
 const JOBS = {
-  "Art Directors": "The art director works with the production designer and is responsible for the design and construction of a movie set. They are essentially assistants to the production designer and help construct the “look” and “feel” of the movie.",
+  "Camera Assistant (1st AC)":
+    "The 1st AC is the chief assistant to the camera operator. The 1st assistant camera person is in charge of measuring and pulling focus during filming. The 1st AC also threads the film through the camera when a new magazine is loaded. This person also helps setup and build the camera, as well as maintain and clean the camera and lenses.",
 
-  "Prop Maker": "Prop makers and sculptors construct unique and specialized set props that are too difficult to attain, or too expensive to buy. This person builds these needed props from scratch using various materials that may include styrofoam, plastics, electronics, metals, woods or glass types of materials. This person is usually skilled in a wide variety of machining, construction and sculpting techniques.",
+  "Camera Assistant (2nd AC)":
+    "The 2nd AC is also known as the loader. The 2nd assistant camera person is primarily responsible for loading and unloading the new rolls of film into the different magazines, as well as maintaining and filling out all the camera reports for the film lab. This person also runs the slate or clapper to maintain sync and the correct labeling for each and every shot.",
 
-  "Prop Master": "The prop master acquires, organizes, maintains and accounts for all the various props needed for the production. A prop is basically any set decoration piece that can be moved readily easily. This includes many items like guns, knives, books, phones, dish-ware, food, musical instruments, pets or any other item that needs to be present to fulfill the story line.",
+  "Camera Operator":
+    "The camera operator physically controls and operates the camera during filming, under the direction of the D.P. (Director of Photography). The camera operator works closely with both A.C.’s as well. The camera operator controls the shot’s framing, and the camera movements as instructed by the director of photography.",
 
-  "Scenic Artist / Painter": "The scenic artist is in charge of designing and treating all of the set surfaces. This may include painting, plastering, coloring, texturing or applying any other sort of treatment to the set surfaces to create a look. Often times the scenic artist simulates stone, wood, lettering, metallic or brick on the various sets and scenery.",
+  "Camera Operator (Aerial)":
+    "The aerial photographer or camera operator is qualified and equipped to film aboard aerial devices. This usually refers to small airplanes and helicopter filming, but more recently, the use of drone cameras are being widely used as well.",
 
-  "Set Construction Coordinator / Builder": "The construction coordinator supervises the fabrication and physical integrity of the various sets needed as directed by the production designer and art director. This person is also in charge of budgeting and ordering the needed materials for the set designs. The construction coordinator may also be responsible for hiring the carpenters.",
+  "Camera Operator (Jib Arm / Crane)":
+    "This person is responsible for setting up and operating the mechanical camera crane also known as the “jib arm”. The jib arm is primarily used for large establishing shots that require substantial elevation and smooth motion.",
 
-  "Set Decorator / Dresser": "The set decorator makes the decisions on what furnishings and other decorations are going to be used on set. This person works closely with the art director and production designer to create the optimal visual environment for filming. This may include various items such as paintings, fabrics, and other non movable decorative set pieces.",
+  "Data Wrangling":
+    "This is a relatively new job position that has been created in response to the popular use of digital video formats. The data wrangler is usually responsible for organizing, labeling, downloading, duplicating and reformatting the digital storage disks for use on set and the editing room.",
 
-  "Storyboard Artist": "The storyboard artist creates a series of illustrations and sketches based on the director’s vision during pre-production. Each sketch represents a different camera set-up. These drawings usually include camera angles, characters and set design. The illustrations are then used to assist the other head departments in understanding their tasks.",
-}
+  "Digital Imaging Technician":
+    "This is another new job position that was created in response to the popular use of high-end digital video formats. The digital imaging technician uses various image manipulation methods to achieve the highest possible image quality during the production. This person usually manages the transferring and storage of the image data as well.",
+
+  "Director of Photography":
+    "The director of photography (D.P.) is in charge of the overall visual look of the film, as seen through the camera. They recommend which cameras and lenses to use for the production. They design the shot’s framing, and the camera movements in conjunction with the director. They are also in charge of the camera crew, lighting design and collaborating with the gaffer.",
+
+  "Photographer / Production Stills":
+    "This person takes still photographs and essentially documents the behind-the-scenes making of the production. Often, this person photographs images used for marketing purposes such as movie posters and DVD box art.",
+
+  "Steadicam Owner / Operator":
+    "The steadicam is a camera mounting device that utilizes a mechanical arm attached to a body harness to provide extremely smooth hand-held shots. The steadicam operator is responsible for setting up and operating the steadicam during production. Most steadicam operators are very physically fit due to the amount of strength and endurance needed to operate the steadicam.",
+
+  Videographer:
+    "This person creates the video that essentially documents the behind-the-scenes making of the movie. This video isn’t normally used in the final version of the film. It’s only used for the purposes of documentation."
+};

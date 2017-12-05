@@ -7,7 +7,7 @@ class Crew extends Component {
   }
 
   static navigationOptions = {
-    title: 'Crew',
+    title: 'Departments',
   };
 
   render() {

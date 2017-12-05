@@ -7,7 +7,7 @@ class ProductionDept extends Component {
   }
 
   static navigationOptions = {
-    title: 'ProductionDept',
+    title: 'Production',
   };
 
   render() {
@@ -58,17 +58,23 @@ export default ProductionDept;
 
 
 const JOBS = {
-  "Art Directors": "The art director works with the production designer and is responsible for the design and construction of a movie set. They are essentially assistants to the production designer and help construct the “look” and “feel” of the movie.",
+  "Assistant Director / 1st AD": "The 1st assistant director works with both the production manager and the director to make the shooting schedule efficient as possible. The 1st A.D. breaks the script down into a shooting schedule and also helps manage the scheduling of talent, crew and equipment needed for each shooting day. This person sometimes helps direct the background extras in a scene.",
 
-  "Prop Maker": "Prop makers and sculptors construct unique and specialized set props that are too difficult to attain, or too expensive to buy. This person builds these needed props from scratch using various materials that may include styrofoam, plastics, electronics, metals, woods or glass types of materials. This person is usually skilled in a wide variety of machining, construction and sculpting techniques.",
+  "Assistant Director / 2nd AD": "The 2nd A.D. works directly with the 1st A.D. to accomplish their duties. The call sheets for each shooting day are created by the 2nd assistant director. The 2nd A.D. also helps manage the scheduling of talent, crew and equipment that is needed for each day. This person also assists in directing the background extras in a movie scene.",
 
-  "Prop Master": "The prop master acquires, organizes, maintains and accounts for all the various props needed for the production. A prop is basically any set decoration piece that can be moved readily easily. This includes many items like guns, knives, books, phones, dish-ware, food, musical instruments, pets or any other item that needs to be present to fulfill the story line.",
+  "Director": "The director is the leading creative artist on a movie set. The director works directly with the actors on their performances and has final creative control on almost every aspect of the the film. The director plays a large role in casting, script revisions, shot composing and even editing. Usually, the director is hired by the producer of the film.",
 
-  "Scenic Artist / Painter": "The scenic artist is in charge of designing and treating all of the set surfaces. This may include painting, plastering, coloring, texturing or applying any other sort of treatment to the set surfaces to create a look. Often times the scenic artist simulates stone, wood, lettering, metallic or brick on the various sets and scenery.",
+  "Line Producer": "The line producer supervises the entire budget of the movie. Expenses may include celebrity salaries as well as daily costs like location and equipment rentals. The production manager reports to the line producer the current expenses and needs of the production on an ongoing basis.",
 
-  "Set Construction Coordinator / Builder": "The construction coordinator supervises the fabrication and physical integrity of the various sets needed as directed by the production designer and art director. This person is also in charge of budgeting and ordering the needed materials for the set designs. The construction coordinator may also be responsible for hiring the carpenters.",
+  "Producer": "The producer helps organize the entire production. This person helps develop the script into a workable project. They assist with the hiring of actors and key crew members, while keeping track of finances throughout the production. The producer oversees script progress and often assists in creating final distribution plans for the movie.",
 
-  "Set Decorator / Dresser": "The set decorator makes the decisions on what furnishings and other decorations are going to be used on set. This person works closely with the art director and production designer to create the optimal visual environment for filming. This may include various items such as paintings, fabrics, and other non movable decorative set pieces.",
+  "Production Assistant": "Many individuals start their careers in the film industry as a production assistant. A production assistant usually does any general duty or minor task that the production heads may need. Basic duties may include dispersing walkie-talkies, setting up pop-up tents and tables, running basic errands as needed or attaining any other last-minute item that the production might need. It is essential that the P.A. has their own transportation to perform these various errands.",
 
-  "Storyboard Artist": "The storyboard artist creates a series of illustrations and sketches based on the director’s vision during pre-production. Each sketch represents a different camera set-up. These drawings usually include camera angles, characters and set design. The illustrations are then used to assist the other head departments in understanding their tasks.",
+  "Production Coordinator": "A production coordinator is responsible for coordinating the “behind the scenes” logistics, which can include renting equipment, hiring crew members, and coordinating talent. In addition, this crew member may handle the paperwork needed to organize the production. For this reason, the production coordinator is an important crew member in ensuring a production’s goals are on budget and on time.",
+
+  "Production Designer": "The production designer works with the director and is primarily responsible for the design and overall visual “look” and “feel” of a movie. This includes the use of costumes, landscapes, props and other visual scenery that could reflect the movie script.",
+
+  "Production Manager": "The production manager works closely with the production coordinator. This person helps supervise the organization and distribution of the production budget, crew & equipment scheduling, salaries, day rates, and other office related paperwork. This person reports budget needs to the line producer, while trying to keep the production under budget on a day to day basis.",
+
+  "Production Secretary": "The production secretary is the assistant to the production manager. This person assists with the paperwork for the crew & equipment scheduling, timecards & invoicing, crew deal memo’s and other related office materials. The production secretary usually helps complete most of the paperwork needed to properly finish the production.",
 }

@@ -7,7 +7,7 @@ class FXDept extends Component {
   }
 
   static navigationOptions = {
-    title: 'FXDept',
+    title: 'Stunts & FX',
   };
 
   render() {
@@ -58,17 +58,11 @@ export default FXDept;
 
 
 const JOBS = {
-  "Art Directors": "The art director works with the production designer and is responsible for the design and construction of a movie set. They are essentially assistants to the production designer and help construct the “look” and “feel” of the movie.",
+  "Pyro Technician / Explosives": "Sometimes also known as the armorer, this person is primarily responsible for the handling, maintenance and care of all firearms, weapons and pyrotechnics that are used during filming. This includes all live-action explosives and and battle scene pyro effects. Pyro technicians are usually trained and certified to handle these dangerous props and explosives.",
 
-  "Prop Maker": "Prop makers and sculptors construct unique and specialized set props that are too difficult to attain, or too expensive to buy. This person builds these needed props from scratch using various materials that may include styrofoam, plastics, electronics, metals, woods or glass types of materials. This person is usually skilled in a wide variety of machining, construction and sculpting techniques.",
+  "Special Effects Coordinator": "The special effects coordinator designs and supervises the various effects needed for filming through the use of mechanical and/or optical illusion techniques. The special effects coordinator provides the visual elements needed such as recreating weather elements or assisting with props that break, shatter, collapse, burn, smoke or explode. They also provide the special mechanical rigging that allows you to fly an actor.",
 
-  "Prop Master": "The prop master acquires, organizes, maintains and accounts for all the various props needed for the production. A prop is basically any set decoration piece that can be moved readily easily. This includes many items like guns, knives, books, phones, dish-ware, food, musical instruments, pets or any other item that needs to be present to fulfill the story line.",
+  "Special Effects Technician": "A special effects technician works under the special effects coordinator and assists in physically creating the visual elements needed like weather elements, or assisting with props that break, shatter, collapse, burn, smoke or explode. They also help build the special mechanical rigging that allows you to fly an actor.",
 
-  "Scenic Artist / Painter": "The scenic artist is in charge of designing and treating all of the set surfaces. This may include painting, plastering, coloring, texturing or applying any other sort of treatment to the set surfaces to create a look. Often times the scenic artist simulates stone, wood, lettering, metallic or brick on the various sets and scenery.",
-
-  "Set Construction Coordinator / Builder": "The construction coordinator supervises the fabrication and physical integrity of the various sets needed as directed by the production designer and art director. This person is also in charge of budgeting and ordering the needed materials for the set designs. The construction coordinator may also be responsible for hiring the carpenters.",
-
-  "Set Decorator / Dresser": "The set decorator makes the decisions on what furnishings and other decorations are going to be used on set. This person works closely with the art director and production designer to create the optimal visual environment for filming. This may include various items such as paintings, fabrics, and other non movable decorative set pieces.",
-
-  "Storyboard Artist": "The storyboard artist creates a series of illustrations and sketches based on the director’s vision during pre-production. Each sketch represents a different camera set-up. These drawings usually include camera angles, characters and set design. The illustrations are then used to assist the other head departments in understanding their tasks.",
+  "Stunt Coordinator": "The stunt coordinator manages and coordinates all the dangerous action sequences in a movie that require a stuntman or stunt performer. The stunt coordinator always follows the appropriate safety regulations during filming to ensure the safety of every stunt performer. Types of stunts may include jumping, flipping, diving, free-falling, crashing cars, catching fire, underwater stunts and other dangerous action sequences where stunt doubles are needed.",
 }

@@ -7,7 +7,7 @@ class FoodDept extends Component {
   }
 
   static navigationOptions = {
-    title: 'Food Dept',
+    title: 'Food',
   };
 
   render() {
@@ -58,17 +58,9 @@ export default FoodDept;
 
 
 const JOBS = {
-  "Art Directors": "The art director works with the production designer and is responsible for the design and construction of a movie set. They are essentially assistants to the production designer and help construct the “look” and “feel” of the movie.",
+  "Assistant Food Stylist": "The assistant food stylist assists the lead food stylist in the preparations and arrangements of the food. This person usually has an extensive background in cooking, recipe development, and the ability to assist in achieving creative solutions for making the food look the most attractive.",
 
-  "Prop Maker": "Prop makers and sculptors construct unique and specialized set props that are too difficult to attain, or too expensive to buy. This person builds these needed props from scratch using various materials that may include styrofoam, plastics, electronics, metals, woods or glass types of materials. This person is usually skilled in a wide variety of machining, construction and sculpting techniques.",
+  "Craft Service": "Craft Services are the various snacks and beverages that are provided to the film crew throughout the day. This is separate from catering. The person in charge of craft service sets up and maintains a station near production that provides these snacks and beverages. The craft service person is given a budget prior to attaining all the refreshments.",
 
-  "Prop Master": "The prop master acquires, organizes, maintains and accounts for all the various props needed for the production. A prop is basically any set decoration piece that can be moved readily easily. This includes many items like guns, knives, books, phones, dish-ware, food, musical instruments, pets or any other item that needs to be present to fulfill the story line.",
-
-  "Scenic Artist / Painter": "The scenic artist is in charge of designing and treating all of the set surfaces. This may include painting, plastering, coloring, texturing or applying any other sort of treatment to the set surfaces to create a look. Often times the scenic artist simulates stone, wood, lettering, metallic or brick on the various sets and scenery.",
-
-  "Set Construction Coordinator / Builder": "The construction coordinator supervises the fabrication and physical integrity of the various sets needed as directed by the production designer and art director. This person is also in charge of budgeting and ordering the needed materials for the set designs. The construction coordinator may also be responsible for hiring the carpenters.",
-
-  "Set Decorator / Dresser": "The set decorator makes the decisions on what furnishings and other decorations are going to be used on set. This person works closely with the art director and production designer to create the optimal visual environment for filming. This may include various items such as paintings, fabrics, and other non movable decorative set pieces.",
-
-  "Storyboard Artist": "The storyboard artist creates a series of illustrations and sketches based on the director’s vision during pre-production. Each sketch represents a different camera set-up. These drawings usually include camera angles, characters and set design. The illustrations are then used to assist the other head departments in understanding their tasks.",
+  "Food Stylist": "The food stylist will prepare and arrange food in an appealing way to be used in photographs, commercials or movies. This person usually has an extensive background in cooking, recipe development, and the ability to achieve creative solutions for making the food look its most attractive.",
 }

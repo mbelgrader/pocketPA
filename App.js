@@ -34,6 +34,7 @@ const App = StackNavigator({
   Crew: { screen: Crew },
   ArtDept: { screen: ArtDept },
   CameraDept: { screen: CameraDept },
+  FoodDept: { screen: FoodDept },
   LightingDept: { screen: LightingDept },
   LocationsDept: { screen: LocationsDept },
   WardrobeDept: { screen: WardrobeDept },
