@@ -33,6 +33,9 @@ class Home extends Component {
         <View style={ styles.space }>
           <Button title="Lighting" onPress={() => navigate('Lighting') } />
         </View>
+        <View style={ styles.space }>
+          <Button title="Crew" onPress={() => navigate('Crew') } />
+        </View>
       </ScrollView>
     );
   }
