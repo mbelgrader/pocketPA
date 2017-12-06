@@ -5,6 +5,9 @@ const walkie = require("../assets/images/walkie3.jpg");
 const lighting = require("../assets/images/lighting6.png");
 const camera = require("../assets/images/camera10.jpg");
 const departments = require("../assets/images/departments.jpg");
+const set_items = require("../assets/images/set_items3.jpg");
+const set_etiquette = require("../assets/images/set_etiquette.jpg");
+const lingo = require("../assets/images/lingo3.jpg");
 
 class Home extends Component {
   constructor(props) {
@@ -25,12 +28,15 @@ class Home extends Component {
           <Button title="Walkie" onPress={() => navigate('Walkie') } />
         </View>
         <View style={ styles.space }>
+          <Image source={lingo} style={styles.image} />
           <Button title="Lingo" onPress={() => navigate('Lingo') } />
         </View>
         <View style={ styles.space }>
+          <Image source={set_etiquette} style={styles.image} />
           <Button title="Set Etiquette" onPress={() => navigate('SetEtiquette') } />
         </View>
         <View style={ styles.space }>
+          <Image source={set_items} style={styles.image} />
           <Button title="Basic Set Items" onPress={() => navigate('BasicSetItems') } />
         </View>
         <View style={ styles.space }>

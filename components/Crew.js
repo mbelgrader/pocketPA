@@ -16,37 +16,37 @@ class Crew extends Component {
     return (
       <ScrollView style={styles.container}>
         <View style={ styles.space }>
-          <Button title="Art Department" onPress={() => navigate('ArtDept') } />
+          <Button title="Art" onPress={() => navigate('ArtDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Camera Department" onPress={() => navigate('CameraDept') } />
+          <Button title="Camera" onPress={() => navigate('CameraDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Food Department" onPress={() => navigate('FoodDept') } />
+          <Button title="Food" onPress={() => navigate('FoodDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Lighting & Grip Department" onPress={() => navigate('LightingDept') } />
+          <Button title="Lighting & Grip" onPress={() => navigate('LightingDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Locations Department" onPress={() => navigate('LocationsDept') } />
+          <Button title="Locations" onPress={() => navigate('LocationsDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Makeup & Wardrobe Department" onPress={() => navigate('WardrobeDept') } />
+          <Button title="Makeup & Wardrobe" onPress={() => navigate('WardrobeDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Production Department" onPress={() => navigate('ProductionDept') } />
+          <Button title="Production" onPress={() => navigate('ProductionDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Script & VTR Department" onPress={() => navigate('ScriptVTRDept') } />
+          <Button title="Script & VTR" onPress={() => navigate('ScriptVTRDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Sound Department" onPress={() => navigate('SoundDept') } />
+          <Button title="Sound" onPress={() => navigate('SoundDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Stunts & FX Department" onPress={() => navigate('FXDept') } />
+          <Button title="Stunts & FX" onPress={() => navigate('FXDept') } />
         </View>
         <View style={ styles.space }>
-          <Button title="Transportation Department" onPress={() => navigate('TransportationDept') } />
+          <Button title="Transportation" onPress={() => navigate('TransportationDept') } />
         </View>
       </ScrollView>
     );
